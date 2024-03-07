@@ -8,7 +8,7 @@ Data is the foundation of all AI projects, therefore this project was built on q
 The project goal is to build an AI model that can predict whether a vector is an injection (Usually SQLi). 
 The term "vector" refers to a data input representing characteristics or features relevant to determining whether an SQL injection attack is present. In this case, the vector would likely contain information about the API request, such as parameters, headers, or payloads, which can be analyzed by a machine learning model to detect signs of a SQL injection attack.
 
-#### The model 
+#### The model (train.py)
 
 In this project, I employed advanced machine learning techniques, specifically XGBoost, to enhance predictive accuracy in this binary classification task. The model, trained on a comprehensive feature set extracted from injection attacks textual data using TF-IDF vectorization, demonstrated remarkable performance with an AUC score of 0.99.
 
