@@ -1,7 +1,7 @@
 ## This project uses Xgboost to detect whether an API request contains a cybersecurity attack/injection.
 
 #### The Data
-Data is the foundation of all AI projects, theefore this project was built on quality security data from [Wallarm data competition](https://www.kaggle.com/competitions/wallarm-ml-hackathon).
+Data is the foundation of all AI projects, therefore this project was built on quality security data from [Wallarm data competition](https://www.kaggle.com/competitions/wallarm-ml-hackathon).
 
 #### The task
 
