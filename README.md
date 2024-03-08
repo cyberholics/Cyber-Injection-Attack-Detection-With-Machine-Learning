@@ -1,4 +1,5 @@
-## This project uses Xgboost to detect whether an API request contains a cybersecurity attack/injection.
+## This project uses Xgboost to detect whether an API request contains a cybersecurity attack/injection. 
+To learn more about this project, check out this [technical article](https://dev.to/cyber_holics/how-to-detect-cyber-injection-attack-with-artificial-intelligence-blp)
 
 #### The Data
 Data is the foundation of all AI projects, therefore this project was built on quality security data from [Wallarm data competition](https://www.kaggle.com/competitions/wallarm-ml-hackathon).
@@ -13,6 +14,7 @@ The term "vector" refers to a data input representing characteristics or feature
 In this project, I employed advanced machine learning techniques, specifically XGBoost, to enhance predictive accuracy in this binary classification task. The model, trained on a comprehensive feature set extracted from injection attacks textual data using TF-IDF vectorization, demonstrated remarkable performance with an AUC score of 0.99.
 
 AUC (Area Under the ROC Curve) is a robust measure of a model's ability to discriminate between positive and negative classes. Our model's AUC score of 0.99 indicates its exceptional capability in distinguishing between these classes, showcasing its high true positive rate and low false positive rate.
+
 
 **Citation** 
 
